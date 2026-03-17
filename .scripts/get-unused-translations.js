@@ -6,7 +6,7 @@ const TRANSLATIONS_DIR = path.join(
   __dirname,
   '../app/i18n/',
 )
-const LANGUAGES = ['en', 'de', 'fi'];
+const LANGUAGES = ['en', 'de', 'fi', 'sv'];
 const TRANSLATION_REGEX = /translate\(\s*(['"])(.*?)\1/g;
 
 // additional translation keys present in source but not automatically picked up
